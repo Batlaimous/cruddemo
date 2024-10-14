@@ -32,7 +32,6 @@ public Student(String firstName, String lastName, String email) {
 }
 
     // define getter/setter
-
     public int getId() {
         return id;
     }
@@ -66,8 +65,6 @@ public Student(String firstName, String lastName, String email) {
     }
 
     // define toString() method
-
-
     @Override
     public String toString() {
         return "Student{" +
